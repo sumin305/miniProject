@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F6F9F290-A4F2-4353-8951-119E21F79583"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A9D201A9-43D8-413F-B83D-37F4B0FB1EF0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleSettingApp/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "A9D201A9-43D8-413F-B83D-37F4B0FB1EF0 - 5d18ec73c5c389cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.Section&lt;SwiftUI.EmptyView, &lt;&lt;opaque return type of SampleSettingApp.ContentView.profileCell() -&gt; some&gt;&gt;.0, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.EmptyView, SwiftUI.NavigationLink&lt;SwiftUI.Text, SwiftUI.Text&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.EmptyView, SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SampleSettingApp.ContentView.airplaneToggleCell() -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SampleSettingApp.ContentView.plainTextCell&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.View&gt;(imageName: Swift.String, iconColor: SwiftUI.Color, cellTitle: Swift.String, subTitle: Swift.Optional&lt;Swift.String&gt;, destination: () -&gt; &#x3c4;_0_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SampleSettingApp.ContentView.plainTextCell&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.View&gt;(imageName: Swift.String, iconColor: SwiftUI.Color, cellTitle: Swift.String, subTitle: Swift.Optional&lt;Swift.String&gt;, destination: () -&gt; &#x3c4;_0_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SampleSettingApp.ContentView.plainTextCell&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.View&gt;(imageName: Swift.String, iconColor: SwiftUI.Color, cellTitle: Swift.String, subTitle: Swift.Optional&lt;Swift.String&gt;, destination: () -&gt; &#x3c4;_0_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SampleSettingApp.ContentView.plainTextCell&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.View&gt;(imageName: Swift.String, iconColor: SwiftUI.Color, cellTitle: Swift.String, subTitle: Swift.Optional&lt;Swift.String&gt;, destination: () -&gt; &#x3c4;_0_0) -&gt; some&gt;&gt;.0)&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.EmptyView, SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SampleSettingApp.ContentView.plainTextCell&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.View&gt;(imageName: Swift.String, iconColor: SwiftUI.Color, cellTitle: Swift.String, subTitle: Swift.Optional&lt;Swift.String&gt;, destination: () -&gt; &#x3c4;_0_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SampleSettingApp.ContentView.plainTextCell&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.View&gt;(imageName: Swift.String, iconColor: SwiftUI.Color, cellTitle: Swift.String, subTitle: Swift.Optional&lt;Swift.String&gt;, destination: () -&gt; &#x3c4;_0_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SampleSettingApp.ContentView.plainTextCell&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.View&gt;(imageName: Swift.String, iconColor: SwiftUI.Color, cellTitle: Swift.String, subTitle: Swift.Optional&lt;Swift.String&gt;, destination: () -&gt; &#x3c4;_0_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SampleSettingApp.ContentView.plainTextCell&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.View&gt;(imageName: Swift.String, iconColor: SwiftUI.Color, cellTitle: Swift.String, subTitle: Swift.Optional&lt;Swift.String&gt;, destination: () -&gt; &#x3c4;_0_0) -&gt; some&gt;&gt;.0)&gt;, SwiftUI.EmptyView&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.Text) -&gt; some&gt;&gt;.0 in SampleSettingApp.ContentView.body.getter : some"
+                  moduleName = "SampleSettingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/soom/Desktop/SwiftCoding/SampleSettingApp/SampleSettingApp/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1444">
+               </Location>
+               <Location
+                  uuid = "A9D201A9-43D8-413F-B83D-37F4B0FB1EF0 - 1403e308f31f60bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; &lt;&lt;opaque return type of SampleSettingApp.ContentView.profileCell() -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.Section&lt;SwiftUI.EmptyView, &lt;&lt;opaque return type of SampleSettingApp.ContentView.profileCell() -&gt; some&gt;&gt;.0, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.EmptyView, SwiftUI.NavigationLink&lt;SwiftUI.Text, SwiftUI.Text&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.EmptyView, SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SampleSettingApp.ContentView.airplaneToggleCell() -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SampleSettingApp.ContentView.plainTextCell&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.View&gt;(imageName: Swift.String, iconColor: SwiftUI.Color, cellTitle: Swift.String, subTitle: Swift.Optional&lt;Swift.String&gt;, destination: () -&gt; &#x3c4;_0_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SampleSettingApp.ContentView.plainTextCell&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.View&gt;(imageName: Swift.String, iconColor: SwiftUI.Color, cellTitle: Swift.String, subTitle: Swift.Optional&lt;Swift.String&gt;, destination: () -&gt; &#x3c4;_0_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SampleSettingApp.ContentView.plainTextCell&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.View&gt;(imageName: Swift.String, iconColor: SwiftUI.Color, cellTitle: Swift.String, subTitle: Swift.Optional&lt;Swift.String&gt;, destination: () -&gt; &#x3c4;_0_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SampleSettingApp.ContentView.plainTextCell&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.View&gt;(imageName: Swift.String, iconColor: SwiftUI.Color, cellTitle: Swift.String, subTitle: Swift.Optional&lt;Swift.String&gt;, destination: () -&gt; &#x3c4;_0_0) -&gt; some&gt;&gt;.0)&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.EmptyView, SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SampleSettingApp.ContentView.plainTextCell&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.View&gt;(imageName: Swift.String, iconColor: SwiftUI.Color, cellTitle: Swift.String, subTitle: Swift.Optional&lt;Swift.String&gt;, destination: () -&gt; &#x3c4;_0_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SampleSettingApp.ContentView.plainTextCell&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.View&gt;(imageName: Swift.String, iconColor: SwiftUI.Color, cellTitle: Swift.String, subTitle: Swift.Optional&lt;Swift.String&gt;, destination: () -&gt; &#x3c4;_0_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SampleSettingApp.ContentView.plainTextCell&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.View&gt;(imageName: Swift.String, iconColor: SwiftUI.Color, cellTitle: Swift.String, subTitle: Swift.Optional&lt;Swift.String&gt;, destination: () -&gt; &#x3c4;_0_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SampleSettingApp.ContentView.plainTextCell&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.View&gt;(imageName: Swift.String, iconColor: SwiftUI.Color, cellTitle: Swift.String, subTitle: Swift.Optional&lt;Swift.String&gt;, destination: () -&gt; &#x3c4;_0_0) -&gt; some&gt;&gt;.0)&gt;, SwiftUI.EmptyView&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.Text) -&gt; some&gt;&gt;.0 in SampleSettingApp.ContentView.body.getter : some"
+                  moduleName = "SampleSettingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/soom/Desktop/SwiftCoding/SampleSettingApp/SampleSettingApp/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

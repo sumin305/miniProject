@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDE60F92297962B6002C5686 /* CaffeineHolicCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE60F91297962B6002C5686 /* CaffeineHolicCloneApp.swift */; };
+		EDE60F94297962B6002C5686 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE60F93297962B6002C5686 /* ContentView.swift */; };
+		EDE60F96297962B7002C5686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE60F95297962B7002C5686 /* Assets.xcassets */; };
+		EDE60F99297962B7002C5686 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE60F98297962B7002C5686 /* Preview Assets.xcassets */; };
+		EDE60FA3297962B7002C5686 /* CaffeineHolicCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE60FA2297962B7002C5686 /* CaffeineHolicCloneTests.swift */; };
+		EDE60FAD297962B7002C5686 /* CaffeineHolicCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE60FAC297962B7002C5686 /* CaffeineHolicCloneUITests.swift */; };
+		EDE60FAF297962B7002C5686 /* CaffeineHolicCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE60FAE297962B7002C5686 /* CaffeineHolicCloneUITestsLaunchTests.swift */; };
+		EDE60FBC297962CF002C5686 /* CaffeineHolicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE60FBB297962CF002C5686 /* CaffeineHolicModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDE60F9F297962B7002C5686 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE60F86297962B6002C5686 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE60F8D297962B6002C5686;
+			remoteInfo = CaffeineHolicClone;
+		};
+		EDE60FA9297962B7002C5686 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE60F86297962B6002C5686 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE60F8D297962B6002C5686;
+			remoteInfo = CaffeineHolicClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDE60F8E297962B6002C5686 /* CaffeineHolicClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaffeineHolicClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE60F91297962B6002C5686 /* CaffeineHolicCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaffeineHolicCloneApp.swift; sourceTree = "<group>"; };
+		EDE60F93297962B6002C5686 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDE60F95297962B7002C5686 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDE60F98297962B7002C5686 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDE60F9E297962B7002C5686 /* CaffeineHolicCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaffeineHolicCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE60FA2297962B7002C5686 /* CaffeineHolicCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaffeineHolicCloneTests.swift; sourceTree = "<group>"; };
+		EDE60FA8297962B7002C5686 /* CaffeineHolicCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaffeineHolicCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE60FAC297962B7002C5686 /* CaffeineHolicCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaffeineHolicCloneUITests.swift; sourceTree = "<group>"; };
+		EDE60FAE297962B7002C5686 /* CaffeineHolicCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaffeineHolicCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EDE60FBB297962CF002C5686 /* CaffeineHolicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaffeineHolicModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDE60F8B297962B6002C5686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE60F9B297962B7002C5686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE60FA5297962B7002C5686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDE60F85297962B6002C5686 = {
+			isa = PBXGroup;
+			children = (
+				EDE60F90297962B6002C5686 /* CaffeineHolicClone */,
+				EDE60FA1297962B7002C5686 /* CaffeineHolicCloneTests */,
+				EDE60FAB297962B7002C5686 /* CaffeineHolicCloneUITests */,
+				EDE60F8F297962B6002C5686 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDE60F8F297962B6002C5686 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDE60F8E297962B6002C5686 /* CaffeineHolicClone.app */,
+				EDE60F9E297962B7002C5686 /* CaffeineHolicCloneTests.xctest */,
+				EDE60FA8297962B7002C5686 /* CaffeineHolicCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDE60F90297962B6002C5686 /* CaffeineHolicClone */ = {
+			isa = PBXGroup;
+			children = (
+				EDE60F91297962B6002C5686 /* CaffeineHolicCloneApp.swift */,
+				EDE60FBB297962CF002C5686 /* CaffeineHolicModel.swift */,
+				EDE60F93297962B6002C5686 /* ContentView.swift */,
+				EDE60F95297962B7002C5686 /* Assets.xcassets */,
+				EDE60F97297962B7002C5686 /* Preview Content */,
+			);
+			path = CaffeineHolicClone;
+			sourceTree = "<group>";
+		};
+		EDE60F97297962B7002C5686 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EDE60F98297962B7002C5686 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDE60FA1297962B7002C5686 /* CaffeineHolicCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDE60FA2297962B7002C5686 /* CaffeineHolicCloneTests.swift */,
+			);
+			path = CaffeineHolicCloneTests;
+			sourceTree = "<group>";
+		};
+		EDE60FAB297962B7002C5686 /* CaffeineHolicCloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDE60FAC297962B7002C5686 /* CaffeineHolicCloneUITests.swift */,
+				EDE60FAE297962B7002C5686 /* CaffeineHolicCloneUITestsLaunchTests.swift */,
+			);
+			path = CaffeineHolicCloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDE60F8D297962B6002C5686 /* CaffeineHolicClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE60FB2297962B7002C5686 /* Build configuration list for PBXNativeTarget "CaffeineHolicClone" */;
+			buildPhases = (
+				EDE60F8A297962B6002C5686 /* Sources */,
+				EDE60F8B297962B6002C5686 /* Frameworks */,
+				EDE60F8C297962B6002C5686 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaffeineHolicClone;
+			productName = CaffeineHolicClone;
+			productReference = EDE60F8E297962B6002C5686 /* CaffeineHolicClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDE60F9D297962B7002C5686 /* CaffeineHolicCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE60FB5297962B7002C5686 /* Build configuration list for PBXNativeTarget "CaffeineHolicCloneTests" */;
+			buildPhases = (
+				EDE60F9A297962B7002C5686 /* Sources */,
+				EDE60F9B297962B7002C5686 /* Frameworks */,
+				EDE60F9C297962B7002C5686 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDE60FA0297962B7002C5686 /* PBXTargetDependency */,
+			);
+			name = CaffeineHolicCloneTests;
+			productName = CaffeineHolicCloneTests;
+			productReference = EDE60F9E297962B7002C5686 /* CaffeineHolicCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDE60FA7297962B7002C5686 /* CaffeineHolicCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE60FB8297962B7002C5686 /* Build configuration list for PBXNativeTarget "CaffeineHolicCloneUITests" */;
+			buildPhases = (
+				EDE60FA4297962B7002C5686 /* Sources */,
+				EDE60FA5297962B7002C5686 /* Frameworks */,
+				EDE60FA6297962B7002C5686 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDE60FAA297962B7002C5686 /* PBXTargetDependency */,
+			);
+			name = CaffeineHolicCloneUITests;
+			productName = CaffeineHolicCloneUITests;
+			productReference = EDE60FA8297962B7002C5686 /* CaffeineHolicCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDE60F86297962B6002C5686 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EDE60F8D297962B6002C5686 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EDE60F9D297962B7002C5686 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EDE60F8D297962B6002C5686;
+					};
+					EDE60FA7297962B7002C5686 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EDE60F8D297962B6002C5686;
+					};
+				};
+			};
+			buildConfigurationList = EDE60F89297962B6002C5686 /* Build configuration list for PBXProject "CaffeineHolicClone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDE60F85297962B6002C5686;
+			productRefGroup = EDE60F8F297962B6002C5686 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDE60F8D297962B6002C5686 /* CaffeineHolicClone */,
+				EDE60F9D297962B7002C5686 /* CaffeineHolicCloneTests */,
+				EDE60FA7297962B7002C5686 /* CaffeineHolicCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDE60F8C297962B6002C5686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE60F99297962B7002C5686 /* Preview Assets.xcassets in Resources */,
+				EDE60F96297962B7002C5686 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE60F9C297962B7002C5686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE60FA6297962B7002C5686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDE60F8A297962B6002C5686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE60FBC297962CF002C5686 /* CaffeineHolicModel.swift in Sources */,
+				EDE60F94297962B6002C5686 /* ContentView.swift in Sources */,
+				EDE60F92297962B6002C5686 /* CaffeineHolicCloneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE60F9A297962B7002C5686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE60FA3297962B7002C5686 /* CaffeineHolicCloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE60FA4297962B7002C5686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE60FAD297962B7002C5686 /* CaffeineHolicCloneUITests.swift in Sources */,
+				EDE60FAF297962B7002C5686 /* CaffeineHolicCloneUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDE60FA0297962B7002C5686 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE60F8D297962B6002C5686 /* CaffeineHolicClone */;
+			targetProxy = EDE60F9F297962B7002C5686 /* PBXContainerItemProxy */;
+		};
+		EDE60FAA297962B7002C5686 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE60F8D297962B6002C5686 /* CaffeineHolicClone */;
+			targetProxy = EDE60FA9297962B7002C5686 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EDE60FB0297962B7002C5686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDE60FB1297962B7002C5686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDE60FB3297962B7002C5686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CaffeineHolicClone/Preview Content\"";
+				DEVELOPMENT_TEAM = F7THTSRVL7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = practice.CaffeineHolicClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDE60FB4297962B7002C5686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CaffeineHolicClone/Preview Content\"";
+				DEVELOPMENT_TEAM = F7THTSRVL7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = practice.CaffeineHolicClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDE60FB6297962B7002C5686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7THTSRVL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = practice.CaffeineHolicCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaffeineHolicClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CaffeineHolicClone";
+			};
+			name = Debug;
+		};
+		EDE60FB7297962B7002C5686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7THTSRVL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = practice.CaffeineHolicCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaffeineHolicClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CaffeineHolicClone";
+			};
+			name = Release;
+		};
+		EDE60FB9297962B7002C5686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7THTSRVL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = practice.CaffeineHolicCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CaffeineHolicClone;
+			};
+			name = Debug;
+		};
+		EDE60FBA297962B7002C5686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7THTSRVL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = practice.CaffeineHolicCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CaffeineHolicClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDE60F89297962B6002C5686 /* Build configuration list for PBXProject "CaffeineHolicClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE60FB0297962B7002C5686 /* Debug */,
+				EDE60FB1297962B7002C5686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE60FB2297962B7002C5686 /* Build configuration list for PBXNativeTarget "CaffeineHolicClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE60FB3297962B7002C5686 /* Debug */,
+				EDE60FB4297962B7002C5686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE60FB5297962B7002C5686 /* Build configuration list for PBXNativeTarget "CaffeineHolicCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE60FB6297962B7002C5686 /* Debug */,
+				EDE60FB7297962B7002C5686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE60FB8297962B7002C5686 /* Build configuration list for PBXNativeTarget "CaffeineHolicCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE60FB9297962B7002C5686 /* Debug */,
+				EDE60FBA297962B7002C5686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDE60F86297962B6002C5686 /* Project object */;
+}
